@@ -41,12 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BodyDepartment.cs" />
-    <Compile Include="ColorDepartment.cs" />
-    <Compile Include="Department.cs" />
     <Compile Include="DepartmentMediator.cs" />
+    <Compile Include="Departments\BodyDepartment.cs" />
+    <Compile Include="Departments\ColorDepartment.cs" />
+    <Compile Include="Departments\Department.cs" />
+    <Compile Include="Departments\PrintDepartment.cs" />
     <Compile Include="Mediator.cs" />
-    <Compile Include="PrintDepartment.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
